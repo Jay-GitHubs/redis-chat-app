@@ -1,0 +1,29 @@
+services:
+  redis:
+    image: redis
+    container_name: redis-server
+    restart: always
+    ports:
+      - "6379:6379"
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: chat-backend
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: chat-frontend
+    restart: always
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
