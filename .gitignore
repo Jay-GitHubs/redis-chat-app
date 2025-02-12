@@ -1,1 +1,46 @@
-Python
+# Byte-compiled / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.venv
+
+# Redis dump files (if any)
+dump.rdb
+
+# FastAPI / Uvicorn logs
+logs/
+*.log
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Ignore environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Docker related files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore Node.js dependencies (if frontend is expanded with a framework)
+node_modules/
+npm-debug.log
+yarn-error.log
