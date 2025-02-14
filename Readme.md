@@ -122,7 +122,7 @@ Want to improve this project? Follow these steps:
 ### 1️⃣ Fork and Clone the Repository
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/redis-chat-app.git
+git clone https://github.com/Jay-GitHubs/redis-chat-app.git
 cd redis-chat-app
 ```
 
