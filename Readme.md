@@ -47,7 +47,7 @@ Before contributing, ensure you have the following installed:
 ### 2️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/redis-chat-app.git
+git clone https://github.com/Jay-GitHubs/redis-chat-app.git
 cd redis-chat-app
 ```
 
